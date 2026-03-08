@@ -13,3 +13,6 @@ baseline_comparison.png
 perovskite_with_quantum_features.csv
 ablation_feature_importance.png
 ablation_3arm_comparison.png
+candidate_shortlist.csv
+Evidence_Package_Summary.csv
+shap_summary.png
