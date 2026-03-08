@@ -430,9 +430,8 @@ p + p {
 
 .hero {
   padding-top: 72px;
-  min-height: 760px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   overflow: hidden;
 }
@@ -799,7 +798,7 @@ p + p {
   }
 
   .hero {
-    min-height: 720px;
+    min-height: auto;
   }
 
   h1 {
