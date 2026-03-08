@@ -4,3 +4,9 @@ screenshot-*.png
 # OS files
 .DS_Store
 Thumbs.db
+
+# Local Netlify folder
+.netlify
+data/
+perovskite_stability_clean.csv
+baseline_comparison.png
