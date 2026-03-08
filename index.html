@@ -3,244 +3,235 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Materia Arche — Applied materials prioritisation for thin-film PV and adjacent materials teams</title>
-  <meta name="description" content="Materia Arche helps research and industrial R&D teams rank candidates, define test matrices, and build auditable evidence packages using physics-based modelling, machine learning, and carefully bounded quantum workflows.">
+  <title>Materia Arche | Materials Prioritisation for Perovskite and Thin-Film PV Teams</title>
+  <meta name="description" content="Materia Arche helps perovskite and thin-film PV teams rank candidates, structure stability-focused test matrices, and prepare external validation paths through benchmarked hybrid modelling.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <!-- Navigation -->
-  <nav class="nav">
+  <!-- Header -->
+  <header class="nav" id="header">
     <div class="nav-inner">
-      <a href="index.html" class="nav-logo">Materia Arche</a>
+      <a href="#hero" class="nav-logo">Materia Arche</a>
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="approach.html">Approach</a></li>
-        <li><a href="engagements.html">Engagements</a></li>
-        <li><a href="focus.html">Focus Areas</a></li>
-        <li><a href="partners.html">Research Partners</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#perovskite">For Perovskite Teams</a></li>
+        <li><a href="#offer">Offer</a></li>
+        <li><a href="#method">Method</a></li>
+        <li><a href="#evidence">Evidence</a></li>
+        <li><a href="#partners">Research Partners</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <a href="contact.html" class="nav-cta">Discuss a benchmark audit</a>
+      <a href="#contact" class="nav-cta">Discuss a benchmark audit</a>
     </div>
-  </nav>
+  </header>
 
   <main>
 
-    <!-- 1. Hero -->
-    <section class="hero">
+    <!-- Hero -->
+    <section class="hero" id="hero">
       <div class="container hero-grid">
         <div class="hero-content">
-          <h1>Applied materials prioritisation for thin-film PV and adjacent materials teams.</h1>
-          <p class="hero-subhead">Materia Arche helps research and industrial R&amp;D teams rank candidates, define test matrices, and build auditable evidence packages using physics-based modelling, machine learning, and carefully bounded quantum workflows.</p>
+          <p class="eyebrow">Perovskite and thin-film PV</p>
+          <h1>Materials prioritisation for perovskite and thin-film PV teams.</h1>
+          <p class="body-l">Materia Arche helps perovskite and thin-film PV teams rank candidates, structure stability-focused test matrices, and prepare external validation paths through benchmarked hybrid modelling.</p>
           <div class="hero-buttons">
-            <a href="contact.html" class="btn btn-primary">Discuss a benchmark audit</a>
-            <a href="engagements.html" class="btn btn-secondary">See engagement models</a>
+            <a href="#contact" class="btn btn-primary">Discuss a benchmark audit</a>
+            <a href="#offer" class="btn btn-secondary">See the first offer</a>
           </div>
-          <p class="trust-strip">Benchmark-first &middot; Ablation-driven &middot; External-validation ready</p>
+          <p class="trust-strip">Measured against classical baselines &middot; Stability-focused &middot; Built for external validation</p>
         </div>
         <div class="hero-visual">
-          <svg viewBox="0 0 300 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Workflow diagram: candidate funnel to ranked shortlist to test matrix to evidence package">
-            <!-- Stage 1: Candidate Funnel (trapezoid) -->
-            <polygon points="60,10 240,10 210,80 90,80" fill="#16324F" fill-opacity="0.06" stroke="#16324F" stroke-width="2.5"/>
-            <text x="150" y="52" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#16324F">Candidate Funnel</text>
+          <div class="diagram-card">
+            <svg viewBox="0 0 260 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Workflow diagram: Candidate Universe to Evidence Package">
+              <!-- Stage 1: Candidate Universe -->
+              <rect x="40" y="16" width="180" height="52" rx="4" fill="none" stroke="#16324F" stroke-width="2"/>
+              <text x="130" y="47" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#16324F">Candidate Universe</text>
 
-            <!-- Arrow 1 -->
-            <line x1="150" y1="86" x2="150" y2="118" stroke="#5F7C95" stroke-width="2"/>
-            <polygon points="143,114 150,126 157,114" fill="#5F7C95"/>
+              <!-- Arrow 1 -->
+              <line x1="130" y1="68" x2="130" y2="100" stroke="#16324F" stroke-width="1.5"/>
+              <polygon points="124,95 130,106 136,95" fill="#16324F"/>
 
-            <!-- Stage 2: Ranked Shortlist -->
-            <rect x="55" y="132" width="190" height="64" rx="6" fill="#2E6863" fill-opacity="0.06" stroke="#2E6863" stroke-width="2.5"/>
-            <text x="150" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#2E6863">Ranked Shortlist</text>
+              <!-- Stage 2: Frozen Benchmark -->
+              <rect x="40" y="110" width="180" height="52" rx="4" fill="none" stroke="#2E6863" stroke-width="2"/>
+              <!-- Grid lines inside -->
+              <line x1="100" y1="110" x2="100" y2="162" stroke="#2E6863" stroke-width="0.75" opacity="0.3"/>
+              <line x1="160" y1="110" x2="160" y2="162" stroke="#2E6863" stroke-width="0.75" opacity="0.3"/>
+              <line x1="40" y1="136" x2="220" y2="136" stroke="#2E6863" stroke-width="0.75" opacity="0.3"/>
+              <text x="130" y="141" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2E6863">Frozen Benchmark</text>
 
-            <!-- Arrow 2 -->
-            <line x1="150" y1="202" x2="150" y2="234" stroke="#5F7C95" stroke-width="2"/>
-            <polygon points="143,230 150,242 157,230" fill="#5F7C95"/>
+              <!-- Arrow 2 -->
+              <line x1="130" y1="162" x2="130" y2="194" stroke="#16324F" stroke-width="1.5"/>
+              <polygon points="124,189 130,200 136,189" fill="#16324F"/>
 
-            <!-- Stage 3: Test Matrix (grid-like) -->
-            <rect x="55" y="248" width="190" height="64" rx="6" fill="#B8792E" fill-opacity="0.06" stroke="#B8792E" stroke-width="2.5"/>
-            <line x1="118" y1="248" x2="118" y2="312" stroke="#B8792E" stroke-width="1" opacity="0.35"/>
-            <line x1="182" y1="248" x2="182" y2="312" stroke="#B8792E" stroke-width="1" opacity="0.35"/>
-            <line x1="55" y1="280" x2="245" y2="280" stroke="#B8792E" stroke-width="1" opacity="0.35"/>
-            <text x="150" y="300" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#B8792E">Test Matrix</text>
+              <!-- Stage 3: Ranked Shortlist (narrower) -->
+              <rect x="55" y="204" width="150" height="52" rx="4" fill="#2E6863" fill-opacity="0.08" stroke="#2E6863" stroke-width="2"/>
+              <text x="130" y="235" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2E6863">Ranked Shortlist</text>
 
-            <!-- Arrow 3 -->
-            <line x1="150" y1="318" x2="150" y2="350" stroke="#5F7C95" stroke-width="2"/>
-            <polygon points="143,346 150,358 157,346" fill="#5F7C95"/>
+              <!-- Arrow 3 -->
+              <line x1="130" y1="256" x2="130" y2="288" stroke="#16324F" stroke-width="1.5"/>
+              <polygon points="124,283 130,294 136,283" fill="#16324F"/>
 
-            <!-- Stage 4: Evidence Package (document-like) -->
-            <rect x="45" y="364" width="210" height="52" rx="6" fill="#16324F" fill-opacity="0.06" stroke="#16324F" stroke-width="2.5"/>
-            <text x="150" y="396" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#16324F">Evidence Package</text>
-          </svg>
+              <!-- Stage 4: Validation Panel -->
+              <rect x="40" y="298" width="180" height="52" rx="4" fill="none" stroke="#B8792E" stroke-width="2"/>
+              <text x="130" y="329" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#B8792E">Validation Panel</text>
+
+              <!-- Arrow 4 -->
+              <line x1="130" y1="350" x2="130" y2="382" stroke="#16324F" stroke-width="1.5"/>
+              <polygon points="124,377 130,388 136,377" fill="#16324F"/>
+
+              <!-- Stage 5: Evidence Package (document lines inside) -->
+              <rect x="40" y="392" width="180" height="52" rx="4" fill="#16324F" fill-opacity="0.06" stroke="#16324F" stroke-width="2"/>
+              <!-- Document lines -->
+              <line x1="72" y1="408" x2="188" y2="408" stroke="#16324F" stroke-width="1" opacity="0.25"/>
+              <line x1="72" y1="418" x2="188" y2="418" stroke="#16324F" stroke-width="1" opacity="0.25"/>
+              <line x1="72" y1="428" x2="150" y2="428" stroke="#16324F" stroke-width="1" opacity="0.25"/>
+              <text x="130" y="423" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#16324F">Evidence Package</text>
+            </svg>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- 2. What we do -->
-    <section class="section alt-bg">
+    <!-- For Perovskite Teams -->
+    <section class="section" id="perovskite">
       <div class="container">
-        <h2>What we do</h2>
-        <p class="section-intro">We help advanced-materials teams reduce wasted experimental cycles by narrowing candidate sets before scarce lab time, instrument time, and engineering effort are committed.</p>
+        <p class="eyebrow">For perovskite teams</p>
+        <h2>Stop guessing which candidates deserve scarce testing.</h2>
+        <p class="body-l section-intro">Perovskite programmes produce more plausible compositions, interfaces, and stack changes than most teams can validate quickly. Materia Arche is built for the point where testing bandwidth is limited, evidence is uneven, and candidate choice needs to be defensible.</p>
         <div class="card-grid">
           <div class="card">
+            <h3>Frozen benchmark</h3>
+            <p>We define the comparison frame before ranking begins.</p>
+          </div>
+          <div class="card">
+            <h3>Decision-grade shortlist</h3>
+            <p>We narrow the field to the candidates most worth follow-up.</p>
+          </div>
+          <div class="card">
+            <h3>Validation-ready output</h3>
+            <p>We package the result so an external lab or internal R&amp;D team can use it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our First Offer -->
+    <section class="section bg-soft" id="offer">
+      <div class="container">
+        <p class="eyebrow">The first offer</p>
+        <h2 class="text-center">Narrow, technical, and useful.</h2>
+        <p class="body-l section-intro text-center">We keep early engagements focused on producing decision-grade output.</p>
+        <div class="card-grid">
+          <div class="offer-card">
             <h3>Benchmark Audit</h3>
-            <p>Stress-test an existing ranking or screening workflow. We identify where signal is real, where assumptions are weak, and what must be measured next.</p>
+            <p class="offer-meta">Typical scope: 2&ndash;3 weeks</p>
+            <p>Stress-test an existing ranking or candidate-selection workflow. We identify weak assumptions, missing controls, and the minimum benchmark needed to make the result useful.</p>
+            <p class="offer-output">Benchmark frame, risk notes, baseline comparison plan</p>
           </div>
-          <div class="card">
+          <div class="offer-card">
             <h3>Candidate Prioritisation Sprint</h3>
-            <p>Rank a constrained candidate set against agreed technical criteria, with uncertainty-aware reasoning and a recommended validation matrix.</p>
+            <p class="offer-meta">Typical scope: 4&ndash;6 weeks</p>
+            <p>Rank a defined candidate set against agreed technical criteria, with uncertainty notes and a recommended shortlist for follow-up.</p>
+            <p class="offer-output">Ranked candidates, rationale, ablation summary, recommended next tests</p>
           </div>
-          <div class="card">
+          <div class="offer-card">
             <h3>Managed Evidence Package</h3>
-            <p>Coordinate modelling logic, decision criteria, and external validation planning for one focused materials question.</p>
+            <p class="offer-meta">Follow-on scope</p>
+            <p>Prepare the materials, logic, and documentation needed for a focused external validation panel or partner-facing technical review.</p>
+            <p class="offer-output">Evidence package, validation brief, partner-ready technical summary</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 3. How we work -->
-    <section class="section">
+    <!-- Why This Works -->
+    <section class="section" id="method">
       <div class="container">
-        <h2>How we work</h2>
-        <p class="section-intro">Our operating principle is simple: do not claim lift without a baseline. Materia Arche is built to improve experimental decisions, not to maximise model complexity. That means we use the least elaborate stack that can answer the question well, and we treat quantum methods as bounded tools rather than branding.</p>
-        <div class="principles-grid">
-          <div class="principle">
-            <h3>Classical baselines first</h3>
-            <p>Every project begins with the strongest practical classical baseline available.</p>
+        <p class="eyebrow">Method</p>
+        <h2>Why this approach works</h2>
+        <div class="method-grid">
+          <div class="method-intro">
+            <p class="body-l">The goal is not to produce the most elaborate model. The goal is to improve the next experimental decision.</p>
           </div>
-          <div class="principle">
-            <h3>Quantum only where justified</h3>
-            <p>We use quantum workflows where they are technically appropriate and where their contribution can be measured against a classical alternative.</p>
-          </div>
-          <div class="principle">
-            <h3>Frozen benchmarks</h3>
-            <p>We define the benchmark, inputs, and success criteria before evaluating performance.</p>
-          </div>
-          <div class="principle">
-            <h3>Auditable outputs</h3>
-            <p>Every ranking should produce a decision trail that a partner can inspect, challenge, and use.</p>
+          <div class="principles-grid">
+            <div class="principle">
+              <h4>Classical baselines first</h4>
+              <p>Every workflow starts from the strongest practical classical comparison available.</p>
+            </div>
+            <div class="principle">
+              <h4>Ablation is mandatory</h4>
+              <p>Where multiple methods are used, we test what each one actually adds.</p>
+            </div>
+            <div class="principle">
+              <h4>Stability matters</h4>
+              <p>Ranking is only useful if it connects to durability, process relevance, and validation design.</p>
+            </div>
+            <div class="principle">
+              <h4>Outputs must be inspectable</h4>
+              <p>A useful result is not just a score. It is a rationale that a partner can challenge and use.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- 4. Focus area -->
-    <section class="section alt-bg">
-      <div class="container">
-        <h2>Current focus</h2>
-        <p class="section-intro">Materia Arche is currently focused on thin-film photovoltaics and adjacent advanced-materials problems where candidate ranking, stability-oriented test design, and evidence discipline matter more than broad platform claims.</p>
-        <div class="focus-grid">
-          <div class="focus-block">
-            <h3>Thin-film PV and perovskites</h3>
-            <p>We are especially interested in materials-selection and validation questions where teams need a disciplined way to compare candidate systems, structure test matrices, and decide what is worth physical follow-up.</p>
-          </div>
-          <div class="focus-block">
-            <h3>Adjacent materials opportunities</h3>
-            <p>We also work on nearby materials-selection problems where the core challenge is the same: limited testing bandwidth, noisy evidence, and the need to make better decisions with less wasted effort.</p>
-          </div>
-        </div>
+    <!-- Evidence -->
+    <section class="section" id="evidence">
+      <div class="container text-center">
+        <p class="eyebrow">Evidence</p>
+        <h2>Evidence-led by design.</h2>
+        <p class="body-l section-intro">Public benchmark materials are being prepared. For current methodology details, contact us with a defined technical question and candidate scope.</p>
+        <a href="#contact" class="btn btn-primary">Request methodology overview</a>
       </div>
     </section>
 
-    <!-- 5. Why teams work with us -->
-    <section class="section">
+    <!-- Research Partners -->
+    <section class="section bg-soft" id="partners">
       <div class="container">
-        <h2>Why teams work with us</h2>
+        <p class="eyebrow">Research partners</p>
+        <h2>Built for research institutes and industrial R&amp;D teams</h2>
+        <p class="body-l section-intro">Materia Arche is designed to complement strong experimental teams, not replace them. We are most useful upstream of scarce device fabrication and characterisation, where the cost of testing the wrong thing is high.</p>
         <div class="card-grid">
-          <div class="card card-highlight">
-            <h3>Better decisions before expensive testing</h3>
-            <p>We are most useful when the cost of testing the wrong thing is high.</p>
+          <div class="mini-card">
+            <h4>Good first projects are narrow</h4>
+            <p>A bounded candidate set beats an open-ended innovation brief.</p>
           </div>
-          <div class="card card-highlight">
-            <h3>A disciplined hybrid workflow</h3>
-            <p>We combine physical reasoning, machine learning, and bounded quantum methods inside a framework designed to separate signal from noise.</p>
+          <div class="mini-card">
+            <h4>Interfaces should be clear</h4>
+            <p>Decision criteria, available data, and validation constraints should be explicit.</p>
           </div>
-          <div class="card card-highlight">
-            <h3>Partner-ready outputs</h3>
-            <p>The end product is not a black box. It is a ranked candidate set, a clear rationale, and a validation path.</p>
+          <div class="mini-card">
+            <h4>Collaboration should be serious</h4>
+            <p>Confidentiality, technical review, and publication expectations should be discussed early.</p>
           </div>
         </div>
+        <p class="small text-muted">Open to collaboration with research institutes, advanced-materials teams, and industrial R&amp;D groups working on defined candidate-selection problems.</p>
       </div>
     </section>
 
-    <!-- 6. How collaboration starts -->
-    <section class="section alt-bg">
+    <!-- Adjacent Materials -->
+    <section class="section" id="adjacent">
       <div class="container">
-        <h2>How collaboration starts</h2>
-        <div class="steps">
-          <div class="step">
-            <span class="step-number">1</span>
-            <div class="step-content">
-              <h3>Define the decision</h3>
-              <p>We scope the technical question narrowly enough to benchmark.</p>
-            </div>
-          </div>
-          <div class="step">
-            <span class="step-number">2</span>
-            <div class="step-content">
-              <h3>Freeze inputs and success criteria</h3>
-              <p>We agree the candidate set, comparison method, and decision threshold before analysis begins.</p>
-            </div>
-          </div>
-          <div class="step">
-            <span class="step-number">3</span>
-            <div class="step-content">
-              <h3>Run the prioritisation workflow</h3>
-              <p>We evaluate the candidate set, test the workflow against baselines, and document where the signal comes from.</p>
-            </div>
-          </div>
-          <div class="step">
-            <span class="step-number">4</span>
-            <div class="step-content">
-              <h3>Deliver the evidence package</h3>
-              <p>You receive a ranked output, supporting rationale, uncertainty notes, and a recommended next-step validation path.</p>
-            </div>
-          </div>
-        </div>
-        <div class="cta-block">
-          <p>Have a defined candidate set or an internal ranking workflow you want challenged?</p>
-          <a href="contact.html" class="btn btn-primary">Start a conversation</a>
-        </div>
+        <p class="eyebrow">Adjacent materials</p>
+        <h3>Selective, not broad.</h3>
+        <p>Our public focus is perovskite and thin-film PV. We will selectively support adjacent advanced-materials problems only where the core challenge is materially the same: stability-critical thin films and interfaces under limited testing bandwidth.</p>
+        <p class="small text-muted">Future adjacent areas may include battery interfaces, membranes, and catalysis after the perovskite validation loop is established.</p>
       </div>
     </section>
 
-    <!-- 7. Built for research partners -->
-    <section class="section">
-      <div class="container">
-        <h2>Built for research partners</h2>
-        <p class="section-intro">Materia Arche is designed to work with research institutes, advanced-materials groups, and technical teams that already understand the underlying science and want a sharper upstream decision layer.</p>
-        <div class="card-grid">
-          <div class="card">
-            <h3>Scoped work</h3>
-            <p>Projects are framed around a defined technical question, not an open-ended "innovation" mandate.</p>
-          </div>
-          <div class="card">
-            <h3>Clear interfaces</h3>
-            <p>We work best when data sources, decision timelines, and validation constraints are explicit.</p>
-          </div>
-          <div class="card">
-            <h3>Serious collaboration</h3>
-            <p>Confidentiality, technical review, and publication pathways should be discussed early, not late.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 8. Final CTA -->
-    <section class="final-cta">
-      <div class="container">
+    <!-- Final CTA -->
+    <section class="final-cta" id="contact">
+      <div class="container text-center">
         <h2>Start with a benchmarkable question.</h2>
-        <p>The strongest first project is usually not the largest one. It is a narrow, high-value question with a constrained candidate set, an agreed evaluation frame, and a realistic validation path.</p>
-        <div class="final-cta-buttons">
-          <a href="contact.html" class="btn btn-primary">Discuss a benchmark audit</a>
-          <a href="contact.html" class="link-secondary">Contact Materia Arche</a>
-        </div>
+        <p>The strongest first project is usually not the largest one. It is a constrained candidate set, a real decision deadline, and a validation path that matters.</p>
+        <a href="mailto:contact@materia-arche.com" class="btn btn-inverted">Discuss a benchmark audit</a>
+        <p class="small">Please do not send sensitive technical information before confidentiality terms are in place.</p>
       </div>
     </section>
 
@@ -252,26 +243,25 @@
       <div class="footer-main">
         <div class="footer-brand">
           <h3>Materia Arche</h3>
-          <p>Applied materials prioritisation for research and industrial R&amp;D teams.</p>
+          <p>Benchmarked materials prioritisation for perovskite and thin-film PV teams.</p>
         </div>
         <div class="footer-links">
-          <a href="approach.html">Approach</a>
-          <a href="engagements.html">Engagements</a>
-          <a href="focus.html">Focus Areas</a>
-          <a href="partners.html">Research Partners</a>
-          <a href="contact.html">Contact</a>
+          <a href="#perovskite">For Perovskite Teams</a>
+          <a href="#offer">Offer</a>
+          <a href="#method">Method</a>
+          <a href="#evidence">Evidence</a>
+          <a href="#partners">Research Partners</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
       <p class="footer-contact">For partnership enquiries: <a href="mailto:contact@materia-arche.com">contact@materia-arche.com</a></p>
       <p class="footer-tagline">Benchmark-first. Evidence-led. Built for serious technical collaboration.</p>
-      <div class="footer-strip">
-        <p>Open to collaboration with research institutes, advanced-materials teams, and industrial R&amp;D groups working on technically defined candidate-selection problems.</p>
-      </div>
     </div>
   </footer>
 
   <script>
     (function () {
+      // Mobile nav toggle
       var toggle = document.querySelector('.nav-toggle');
       var links = document.querySelector('.nav-links');
       if (toggle && links) {
@@ -280,6 +270,37 @@
           toggle.setAttribute('aria-expanded', String(!expanded));
           toggle.classList.toggle('open');
           links.classList.toggle('open');
+        });
+        // Close mobile nav when a link is clicked
+        links.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            toggle.setAttribute('aria-expanded', 'false');
+            toggle.classList.remove('open');
+            links.classList.remove('open');
+          });
+        });
+      }
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
+        anchor.addEventListener('click', function (e) {
+          var target = document.querySelector(this.getAttribute('href'));
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        });
+      });
+
+      // Header background on scroll
+      var header = document.getElementById('header');
+      if (header) {
+        window.addEventListener('scroll', function () {
+          if (window.scrollY > 10) {
+            header.classList.add('scrolled');
+          } else {
+            header.classList.remove('scrolled');
+          }
         });
       }
     })();
