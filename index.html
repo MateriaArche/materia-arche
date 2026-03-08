@@ -5,9 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Materia Arche | Materials Prioritisation for Perovskite and Thin-Film PV Teams</title>
   <meta name="description" content="Materia Arche helps perovskite and thin-film PV teams rank candidates, structure stability-focused test matrices, and prepare external validation paths through benchmarked hybrid modelling.">
+  <meta property="og:title" content="Materia Arche | Materials Prioritisation for Perovskite and Thin-Film PV Teams">
+  <meta property="og:description" content="Materia Arche helps perovskite and thin-film PV teams rank candidates, structure stability-focused test matrices, and prepare external validation paths through benchmarked hybrid modelling.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://materia-arche.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Materia Arche | Materials Prioritisation for Perovskite and Thin-Film PV Teams">
+  <meta name="twitter:description" content="Benchmarked materials prioritisation for perovskite and thin-film PV teams.">
+  <link rel="canonical" href="https://materia-arche.com">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>M</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -19,14 +28,17 @@
       <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links">
-        <li><a href="#perovskite">For Perovskite Teams</a></li>
-        <li><a href="#offer">Offer</a></li>
-        <li><a href="#method">Method</a></li>
-        <li><a href="#evidence">Evidence</a></li>
-        <li><a href="#partners">Research Partners</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <nav aria-label="Main">
+        <ul class="nav-links">
+          <li><a href="#perovskite">For Perovskite Teams</a></li>
+          <li><a href="#offer">Offer</a></li>
+          <li><a href="#method">Method</a></li>
+          <li><a href="#evidence">Evidence</a></li>
+          <li><a href="#partners">Research Partners</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="mobile-cta-item"><a href="#contact" class="btn btn-primary">Discuss a benchmark audit</a></li>
+        </ul>
+      </nav>
       <a href="#contact" class="nav-cta">Discuss a benchmark audit</a>
     </div>
   </header>
@@ -161,19 +173,19 @@
           </div>
           <div class="principles-grid">
             <div class="principle">
-              <h4>Classical baselines first</h4>
+              <h3>Classical baselines first</h3>
               <p>Every workflow starts from the strongest practical classical comparison available.</p>
             </div>
             <div class="principle">
-              <h4>Ablation is mandatory</h4>
+              <h3>Ablation is mandatory</h3>
               <p>Where multiple methods are used, we test what each one actually adds.</p>
             </div>
             <div class="principle">
-              <h4>Stability matters</h4>
+              <h3>Stability matters</h3>
               <p>Ranking is only useful if it connects to durability, process relevance, and validation design.</p>
             </div>
             <div class="principle">
-              <h4>Outputs must be inspectable</h4>
+              <h3>Outputs must be inspectable</h3>
               <p>A useful result is not just a score. It is a rationale that a partner can challenge and use.</p>
             </div>
           </div>
@@ -199,15 +211,15 @@
         <p class="body-l section-intro">Materia Arche is designed to complement strong experimental teams, not replace them. We are most useful upstream of scarce device fabrication and characterisation, where the cost of testing the wrong thing is high.</p>
         <div class="card-grid">
           <div class="mini-card">
-            <h4>Good first projects are narrow</h4>
+            <h3>Good first projects are narrow</h3>
             <p>A bounded candidate set beats an open-ended innovation brief.</p>
           </div>
           <div class="mini-card">
-            <h4>Interfaces should be clear</h4>
+            <h3>Interfaces should be clear</h3>
             <p>Decision criteria, available data, and validation constraints should be explicit.</p>
           </div>
           <div class="mini-card">
-            <h4>Collaboration should be serious</h4>
+            <h3>Collaboration should be serious</h3>
             <p>Confidentiality, technical review, and publication expectations should be discussed early.</p>
           </div>
         </div>
@@ -219,7 +231,7 @@
     <section class="section" id="adjacent">
       <div class="container">
         <p class="eyebrow">Adjacent materials</p>
-        <h3>Selective, not broad.</h3>
+        <h2>Selective, not broad.</h2>
         <p>Our public focus is perovskite and thin-film PV. We will selectively support adjacent advanced-materials problems only where the core challenge is materially the same: stability-critical thin films and interfaces under limited testing bandwidth.</p>
         <p class="small text-muted">Future adjacent areas may include battery interfaces, membranes, and catalysis after the perovskite validation loop is established.</p>
       </div>
@@ -242,17 +254,19 @@
     <div class="container">
       <div class="footer-main">
         <div class="footer-brand">
-          <h3>Materia Arche</h3>
+          <p class="footer-logo">Materia Arche</p>
           <p>Benchmarked materials prioritisation for perovskite and thin-film PV teams.</p>
         </div>
-        <div class="footer-links">
-          <a href="#perovskite">For Perovskite Teams</a>
-          <a href="#offer">Offer</a>
-          <a href="#method">Method</a>
-          <a href="#evidence">Evidence</a>
-          <a href="#partners">Research Partners</a>
-          <a href="#contact">Contact</a>
-        </div>
+        <nav aria-label="Footer">
+          <div class="footer-links">
+            <a href="#perovskite">For Perovskite Teams</a>
+            <a href="#offer">Offer</a>
+            <a href="#method">Method</a>
+            <a href="#evidence">Evidence</a>
+            <a href="#partners">Research Partners</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
       </div>
       <p class="footer-contact">For partnership enquiries: <a href="mailto:contact@materia-arche.com">contact@materia-arche.com</a></p>
       <p class="footer-tagline">Benchmark-first. Evidence-led. Built for serious technical collaboration.</p>
@@ -284,10 +298,12 @@
       // Smooth scroll for anchor links
       document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
         anchor.addEventListener('click', function (e) {
-          var target = document.querySelector(this.getAttribute('href'));
+          var href = this.getAttribute('href');
+          var target = document.querySelector(href);
           if (target) {
             e.preventDefault();
             target.scrollIntoView({ behavior: 'smooth' });
+            history.pushState(null, '', href);
           }
         });
       });
