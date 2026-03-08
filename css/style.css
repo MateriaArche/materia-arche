@@ -507,9 +507,9 @@ p + p {
   background-color: var(--surface);
   border: 1px solid var(--border-light);
   border-radius: 16px;
-  padding: var(--sp-4);
+  padding: var(--sp-3);
   width: 100%;
-  max-width: 480px;
+  max-width: 300px;
 }
 
 .diagram-card svg {
