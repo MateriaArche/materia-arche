@@ -1,0 +1,6 @@
+# Screenshots (dev only)
+screenshot-*.png
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Approach — Materia Arche</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Materia Arche</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="approach.html" class="active">Approach</a></li>
+        <li><a href="engagements.html">Engagements</a></li>
+        <li><a href="focus.html">Focus Areas</a></li>
+        <li><a href="partners.html">Research Partners</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary nav-cta">Discuss a benchmark audit</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>A disciplined hybrid approach to materials prioritisation</h1>
+      <p>Materia Arche exists to improve experimental decisions. Our approach combines physical reasoning, machine learning, and carefully bounded quantum workflows inside a benchmark-first process designed to make candidate ranking more useful, more transparent, and easier to validate.</p>
+    </div>
+  </section>
+
+  <!-- Principles -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">What makes the approach different</h2>
+      <div class="principles-grid">
+        <div class="principle-card">
+          <h3>We start from the decision, not the model</h3>
+          <p>The question is always practical: which candidates deserve scarce follow-up, what should be tested next, and what evidence would change the decision.</p>
+        </div>
+        <div class="principle-card">
+          <h3>We make the benchmark explicit</h3>
+          <p>A workflow should not be judged on impression. It should be judged against frozen inputs, clear success criteria, and a credible baseline.</p>
+        </div>
+        <div class="principle-card">
+          <h3>We measure contribution, not just performance</h3>
+          <p>Where multiple methods are used, we test what each one adds. That includes the quantum layer.</p>
+        </div>
+        <div class="principle-card">
+          <h3>We deliver an evidence trail</h3>
+          <p>A useful output is not only a ranked list. It is a defensible rationale for action.</p>
+        </div>
+      </div>
+      <p class="closing-line">The result is a workflow that can support real collaboration because it is inspectable, constrained, and built around decisions that matter.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h3>Materia Arche</h3>
+          <p>Applied materials prioritisation for research and industrial R&amp;D teams.</p>
+        </div>
+        <div class="footer-links">
+          <a href="approach.html">Approach</a>
+          <a href="engagements.html">Engagements</a>
+          <a href="focus.html">Focus Areas</a>
+          <a href="partners.html">Research Partners</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+      <p class="footer-contact">For partnership enquiries: <a href="mailto:contact@materia-arche.com">contact@materia-arche.com</a></p>
+      <p class="footer-tagline">Benchmark-first. Evidence-led. Built for serious technical collaboration.</p>
+      <div class="footer-strip">
+        <p>Open to collaboration with research institutes, advanced-materials teams, and industrial R&amp;D groups working on technically defined candidate-selection problems.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (toggle && links) {
+        toggle.addEventListener('click', function () {
+          var expanded = toggle.getAttribute('aria-expanded') === 'true';
+          toggle.setAttribute('aria-expanded', String(!expanded));
+          toggle.classList.toggle('open');
+          links.classList.toggle('open');
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
