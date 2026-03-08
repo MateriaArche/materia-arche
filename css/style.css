@@ -787,6 +787,79 @@ p + p {
   color: rgba(255, 255, 255, 0.65);
 }
 
+/* ---------- Milestones List ---------- */
+
+.milestones-list {
+  max-width: 720px;
+  counter-reset: milestone;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-3);
+}
+
+.milestones-list li {
+  counter-increment: milestone;
+  position: relative;
+  padding-left: 48px;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text-primary);
+}
+
+.milestones-list li::before {
+  content: counter(milestone);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--teal);
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Status List ---------- */
+
+.status-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-1);
+}
+
+.status-list li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+
+.status-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--teal);
+}
+
+/* ---------- Two-column card grid ---------- */
+
+.card-grid--two {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* ==========================================================================
    Responsive — Tablet (max 1024px)
    ========================================================================== */
@@ -947,6 +1020,7 @@ p + p {
 
   /* All grids single column */
   .card-grid,
+  .card-grid--two,
   .principles-grid {
     grid-template-columns: 1fr;
     gap: var(--sp-2);
