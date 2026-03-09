@@ -35,3 +35,7 @@ ML_Variation_Leaderboard.csv
 NB14_Deepening_Leaderboard.csv
 Final_Production_Rankings.csv
 Nitrogen_Milestone_Framework.csv
+Lab_Candidate_Shortlist.csv
+SHAP_Feature_Importance.csv
+shap_summary_locked_ET.png
+shap_dependence_top4.png
