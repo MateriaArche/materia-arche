@@ -1,3 +1,5 @@
+**Agent Operating System:** [MATERIA_ARCHE_AGENT_OS_v3.0.md](MATERIA_ARCHE_AGENT_OS_v3.0.md)
+
 **Important:** Please read [Honesty Note](README_Honesty_Note.md) first.
 
 # Materia Arche
