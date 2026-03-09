@@ -39,6 +39,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 17 | SHAP + lab panel | SHAP analysis, 3-candidate selection for Phase 2 |
 | 18 | P-001 Reproducibility | 20-split reproducibility audit of locked ET model |
 | 19 | P-002 Variance reduction | 4 strategies tested — variance is structural |
+| 20 | P-003 Uncertainty ranking | Per-tree prediction intervals, 1/10 separated |
 
 ## Current status
 
