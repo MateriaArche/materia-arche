@@ -1,0 +1,9 @@
+packet_id: P-004
+packet_type: robustness_check
+previous_packet: P-003
+decision: "Is the NB17 shortlist stable across splits for Phase 2?"
+dataset_id: perovskite_stability_clean
+target: Stability_PCE_T80
+model_id: ET_baseline_v1
+allowed_changes: ["split_seed"]
+frozen: ["dataset", "target", "columns", "model"]

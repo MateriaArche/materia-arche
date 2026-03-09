@@ -1,0 +1,10 @@
+model_id: ET_baseline_v1
+class: ExtraTreesRegressor
+params:
+  n_estimators: 700
+  max_features: sqrt
+  min_samples_split: 3
+  min_samples_leaf: 1
+  bootstrap: false
+preprocessing: none
+uncertainty_method: tree_std

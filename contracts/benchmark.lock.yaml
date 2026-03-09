@@ -1,0 +1,4 @@
+benchmark_id: kendall_taub_cv
+primary_metric: kendall_tau_b
+baseline_score: 0.2490
+success_threshold: 0.29

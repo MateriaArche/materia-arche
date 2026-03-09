@@ -1,0 +1,24 @@
+dataset_id: perovskite_stability_clean
+version: v1
+rows: 1543
+columns:
+  - Perovskite_band_gap
+  - Pb
+  - Sn
+  - I
+  - Br
+  - Cl
+  - MA
+  - FA
+  - Cs
+  - first_Prvskt_annealing_temperature
+  - first_Prvskt_thermal_annealing_time
+  - Perovskite_thickness
+  - Cell_area_measured
+  - JV_default_Voc
+  - JV_default_Jsc
+  - JV_default_FF
+target: Stability_PCE_T80
+forbidden_columns: []
+leakage_risk: []
+split_manifest: default_80_20
