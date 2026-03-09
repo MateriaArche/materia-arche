@@ -15,7 +15,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
 - **Lab panel:** 3 diversified, perturbation-robust candidates locked via P-005→P-010, E4 validation-ready
-- **Work packets:** 13 closed (P-001 through P-013), 4 Confirmed, 2 Negative, 1 Promising
+- **Work packets:** 16 closed (P-001 through P-016), 5 Confirmed, 4 Negative, 1 Promising
 
 ## Notebooks
 
@@ -52,6 +52,9 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 29 | P-011 Multi-model consensus | GradientBoosting disagrees on 2/3 panel devices — Negative |
 | 30 | P-012 Learning curve | +0.051 tau-b per doubling, not saturated — Promising |
 | 31 | P-013 Publication bias | LOGO CV tau-b 0.055 vs random 0.289 — Negative (composition-cluster dependent) |
+| 32 | P-014 Feature interactions | Top: Voc×FF (H=5.03), area×Jsc — physically meaningful, Confirmed |
+| 33 | P-015 Interval calibration | 80% PI covers only 66% — under-covers, especially long-lived devices, Negative |
+| 34 | P-016 Novel composition holdout | LOFO tau-b 0.005 — model doesn't generalize to unseen families, Negative |
 
 ## Current status
 
@@ -59,7 +62,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate at ±10% noise — E4 validation-ready
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — 9 experiments, 0 positive lift, closed
-- **Work packets:** 13 closed (P-001 through P-013), 4 Confirmed, 2 Negative, 1 Promising
+- **Work packets:** 16 closed (P-001 through P-016), 5 Confirmed, 4 Negative, 1 Promising
 
 ## Links
 

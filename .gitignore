@@ -52,3 +52,6 @@ Packet_P010_Panel_Replacement.csv
 Packet_P011_Multi_Model_Consensus.csv
 Packet_P012_Learning_Curve.csv
 Packet_P013_Publication_Bias.csv
+Packet_P014_Feature_Interactions.csv
+Packet_P015_Interval_Calibration.csv
+Packet_P016_Novel_Composition_Holdout.csv

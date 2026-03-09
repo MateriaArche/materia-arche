@@ -51,7 +51,7 @@
           <p class="eyebrow">Perovskite Stability Compiler</p>
           <h1>Internal Proof Complete</h1>
           <p class="body-l">Our ML pipeline predicts perovskite stability with Kendall tau-b 0.271 (p&lt;10<sup>-10</sup>), cross-validated at 0.289, with +0.155 lift over classical baselines. SHAP explainability identifies Jsc, bandgap, and Voc as top stability drivers.</p>
-          <p class="body-l">31 notebooks. 1,543 devices. 13 work packets closed. Noise-robust panel locked (E4). Honest: multi-model consensus partial, learning curve not saturated.<br>Internal milestones met. Phase 2 external validation now open.</p>
+          <p class="body-l">34 notebooks. 1,543 devices. 16 work packets closed. Noise-robust panel locked (E4). Honest: prediction intervals under-calibrated, model doesn't generalize to novel composition families.<br>Internal milestones met. Phase 2 external validation now open.</p>
           <p class="trust-strip">Measured against classical baselines &middot; Cross-validated &middot; Fully reproducible</p>
         </div>
         <div class="hero-visual">
@@ -157,7 +157,10 @@
               <li>Multi-model consensus: Device 850 unanimous, Devices 1320/119 depend on ExtraTrees bias (P-011, Negative)</li>
               <li>Learning curve: +0.051 tau-b per doubling &mdash; model not saturated, more data helps (P-012, Promising)</li>
               <li>Composition-cluster LOGO CV: tau-b drops from 0.289 to 0.055 &mdash; within-cluster correlations matter (P-013, Negative)</li>
-              <li>13 Agent OS work packets closed (P-001&ndash;P-013), 4 Confirmed, 2 Negative, 1 Promising</li>
+              <li>Feature interactions physically meaningful: Voc&times;FF strongest (H=5.03), panel in typical regions (P-014, Confirmed)</li>
+              <li>Prediction intervals under-calibrated: 80% PI covers only 66%, worse for long-lived devices (P-015, Negative)</li>
+              <li>Novel composition holdout: LOFO tau-b 0.005 &mdash; model doesn't generalize to unseen families (P-016, Negative)</li>
+              <li>16 Agent OS work packets closed (P-001&ndash;P-016), 5 Confirmed, 4 Negative, 1 Promising</li>
               <li>Partner-ready outreach package: test protocol, budget, success criteria (P-008)</li>
             </ul>
           </div>
@@ -175,7 +178,7 @@
           <li>ML p-value &lt; 0.001 &mdash; <strong>MET</strong> (p &lt; 10<sup>-10</sup>)</li>
           <li>&ge;3 candidate compositions with &gt;20% simulated gain &mdash; <strong>MET</strong> (706)</li>
           <li>Cross-validated stability &mdash; <strong>MET</strong> (CV 0.289, 5-fold)</li>
-          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (31 notebooks on GitHub)</li>
+          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (34 notebooks on GitHub)</li>
         </ol>
         <p class="body-l" style="margin-top: var(--sp-4); opacity: 0.7;">Original quantum-dependent milestones (tau-b lift &ge;0.15, recall &ge;15pp, variance reduction) were not met after 9 experiments. Milestones revised to ML-focused after honest evaluation. Full record in Notebooks 08&ndash;11. Model improved from RF (0.249) to ExtraTrees (0.271) in Notebooks 13&ndash;15.</p>
       </div>
