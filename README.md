@@ -37,6 +37,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 15 | Final ML push | Grid search, bootstrap CIs, production model locked |
 | 16 | Nitrogen roadmap | What nitrogen fixation ML actually needs |
 | 17 | SHAP + lab panel | SHAP analysis, 3-candidate selection for Phase 2 |
+| 18 | P-001 Reproducibility | 20-split reproducibility audit of locked ET model |
 
 ## Current status
 
