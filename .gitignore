@@ -55,3 +55,6 @@ Packet_P013_Publication_Bias.csv
 Packet_P014_Feature_Interactions.csv
 Packet_P015_Interval_Calibration.csv
 Packet_P016_Novel_Composition_Holdout.csv
+Packet_P017_Conformal_Calibration.csv
+Packet_P018_SHAP_Stability.csv
+Packet_P019_High_Confidence_Consensus.csv
