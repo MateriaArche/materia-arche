@@ -58,3 +58,5 @@ Packet_P016_Novel_Composition_Holdout.csv
 Packet_P017_Conformal_Calibration.csv
 Packet_P018_SHAP_Stability.csv
 Packet_P019_High_Confidence_Consensus.csv
+Packet_P020_Corrected_Feature_Importance.csv
+Packet_P021_Hyperparameter_Sensitivity.csv
