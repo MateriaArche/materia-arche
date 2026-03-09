@@ -45,6 +45,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 22 | P-005 Robust lab panel | New 3-candidate panel via test-set-only ranking |
 | 23 | P-006 Panel profiling | Composition diversity check — all MA-only, needs diversification |
 | 24 | P-007 Diversified panel lock | 3 families, all 100% top-20 rate — E4 validation-ready |
+| 25 | P-008 Phase 2 outreach package | Complete partner-ready package with protocol and budget |
 
 ## Current status
 
