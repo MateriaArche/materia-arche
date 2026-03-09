@@ -41,6 +41,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 19 | P-002 Variance reduction | 4 strategies tested — variance is structural |
 | 20 | P-003 Uncertainty ranking | Per-tree prediction intervals, 1/10 separated |
 | 21 | P-004 Shortlist robustness | Frozen top-3 not stable across splits |
+| 22 | P-005 Robust lab panel | New 3-candidate panel via test-set-only ranking |
 
 ## Current status
 
