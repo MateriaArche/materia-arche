@@ -14,8 +14,8 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Classical baseline lift:** +0.155 over composition-only ranking
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
-- **Lab panel:** 3 diversified candidates locked via P-005→P-007, E4 validation-ready
-- **Work packets:** 8 closed (P-001 through P-008), 3 Confirmed
+- **Lab panel:** 3 diversified, perturbation-robust candidates locked via P-005→P-010, E4 validation-ready
+- **Work packets:** 10 closed (P-001 through P-010), 4 Confirmed
 
 ## Notebooks
 
@@ -47,14 +47,16 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 24 | P-007 Diversified panel lock | 3 families, all 100% top-20 rate — E4 validation-ready |
 | 25 | P-008 Phase 2 outreach package | Complete partner-ready package with protocol and budget |
 | 26 | Full pipeline summary audit | End-to-end audit: dataset → model → 8 packets → locked panel |
+| 27 | P-009 Perturbation sensitivity | Feature noise ±1–20%, Device 1064 fragile at 10% |
+| 28 | P-010 Panel replacement | Device 1320 replaces 1064 — all 3 now 100% noise-robust |
 
 ## Current status
 
-- **Perovskite:** Phase 2 ACTIVE — production model locked, diversified lab panel confirmed (P-007)
-- **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate — E4 validation-ready
+- **Perovskite:** Phase 2 ACTIVE — production model locked, noise-robust lab panel confirmed (P-010)
+- **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate at ±10% noise — E4 validation-ready
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — 9 experiments, 0 positive lift, closed
-- **Work packets:** 8 closed (P-001 through P-008), 3 Confirmed
+- **Work packets:** 10 closed (P-001 through P-010), 4 Confirmed
 
 ## Links
 
