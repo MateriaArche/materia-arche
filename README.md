@@ -14,7 +14,8 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Classical baseline lift:** +0.155 over composition-only ranking
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
-- **Lab panel:** 3 candidates selected for Phase 2 external validation
+- **Lab panel:** 3 candidates selected via cross-split robustness testing (P-005)
+- **Work packets:** 5 closed (P-001 through P-005), 1 Confirmed
 
 ## Notebooks
 
@@ -42,10 +43,12 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 20 | P-003 Uncertainty ranking | Per-tree prediction intervals, 1/10 separated |
 | 21 | P-004 Shortlist robustness | Frozen top-3 not stable across splits |
 | 22 | P-005 Robust lab panel | New 3-candidate panel via test-set-only ranking |
+| 23 | P-006 Panel profiling | Composition diversity check — all MA-only, needs diversification |
+| 24 | P-007 Diversified panel lock | 3 families, all 100% top-20 rate — E4 validation-ready |
 
 ## Current status
 
-- **Perovskite:** Phase 2 ACTIVE — production model locked, lab panel selected
+- **Perovskite:** Phase 2 ACTIVE — production model locked, robust lab panel confirmed (P-005)
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — not a gate
 
