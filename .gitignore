@@ -75,3 +75,7 @@ Packet_P033_Feature_Bootstrap_Stability.csv
 Packet_P034_OOD_Detection.csv
 Packet_P035_Temporal_Stability.csv
 Packet_P036_Synthetic_Augmentation.csv
+Packet_P037_CV_Strategy.csv
+Packet_P038_Family_Importance.csv
+Packet_P039_Conformal_Temporal.csv
+Packet_P040_Error_Meta_Model.csv
