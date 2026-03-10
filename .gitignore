@@ -65,3 +65,5 @@ Packet_P023_Missingness_Impact.csv
 Packet_P024_Target_Leakage_Audit.csv
 Packet_P025_Reduced_Feature_Model.csv
 Packet_P026_Ensemble_Stacking.csv
+Packet_P027_Bootstrap_CI.csv
+Packet_P028_Residual_Analysis.csv
