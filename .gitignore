@@ -69,3 +69,9 @@ Packet_P027_Bootstrap_CI.csv
 Packet_P028_Residual_Analysis.csv
 Packet_P029_Updated_Outreach.csv
 Packet_P030_Model_Card.csv
+Packet_P031_Prediction_Monotonicity.csv
+Packet_P032_Subgroup_Fairness.csv
+Packet_P033_Feature_Bootstrap_Stability.csv
+Packet_P034_OOD_Detection.csv
+Packet_P035_Temporal_Stability.csv
+Packet_P036_Synthetic_Augmentation.csv

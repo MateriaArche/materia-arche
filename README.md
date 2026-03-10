@@ -15,7 +15,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
 - **Lab panel:** 3 diversified, perturbation-robust candidates locked via P-005→P-010, E4 validation-ready
-- **Work packets:** 30 closed (P-001 through P-030), 14 Confirmed, 6 Negative, 4 Promising
+- **Work packets:** 36 closed (P-001 through P-036), 15 Confirmed, 9 Negative, 6 Promising
 
 ## Notebooks
 
@@ -69,6 +69,12 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 46 | P-028 Residual analysis | Systematic underprediction of long-lived devices, no family bias, Promising |
 | 47 | P-029 Updated outreach package | Revised partner brief v2 with 28-packet findings, Confirmed |
 | 48 | P-030 Model card | Mitchell et al. format, full transparency documentation, Confirmed |
+| 49 | P-031 Prediction monotonicity | PD curves non-monotonic (34/36 have >3 reversals) — tree artefacts, Negative |
+| 50 | P-032 Subgroup fairness | Pure FA tau-b 0.024, 3 families CI crosses zero — unequal ranking, Negative |
+| 51 | P-033 Feature bootstrap stability | 4 features stable at >0.6 (bandgap/thickness/area/anneal_time), Confirmed |
+| 52 | P-034 OOD detection | Isolation forest: panel devices flagged OOD, OOD half ranks better, Promising |
+| 53 | P-035 Temporal stability | Train-old/test-new: tau-b 0.05–0.14 — significant temporal drift, Negative |
+| 54 | P-036 Synthetic augmentation | 5x augment: +0.004 tau-b, 3.1% bias reduction — marginal, Promising |
 
 ## Current status
 
@@ -76,7 +82,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate at ±10% noise — E4 validation-ready
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — 9 experiments, 0 positive lift, closed
-- **Work packets:** 30 closed (P-001 through P-030), 14 Confirmed, 6 Negative, 4 Promising
+- **Work packets:** 36 closed (P-001 through P-036), 15 Confirmed, 9 Negative, 6 Promising
 
 ## Links
 
