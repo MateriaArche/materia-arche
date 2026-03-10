@@ -62,3 +62,6 @@ Packet_P020_Corrected_Feature_Importance.csv
 Packet_P021_Hyperparameter_Sensitivity.csv
 Packet_P022_Pipeline_Audit_v2.csv
 Packet_P023_Missingness_Impact.csv
+Packet_P024_Target_Leakage_Audit.csv
+Packet_P025_Reduced_Feature_Model.csv
+Packet_P026_Ensemble_Stacking.csv
