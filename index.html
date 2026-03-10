@@ -51,7 +51,7 @@
           <p class="eyebrow">Perovskite Stability Compiler</p>
           <h1>Internal Proof Complete</h1>
           <p class="body-l">Our ML pipeline predicts perovskite stability with Kendall tau-b 0.271 (p&lt;10<sup>-10</sup>), cross-validated at 0.289, with +0.155 lift over classical baselines. SHAP explainability identifies Jsc, bandgap, and Voc as top stability drivers.</p>
-          <p class="body-l">44 notebooks. 1,543 devices. 26 work packets closed (11 Confirmed, 6 Negative, 3 Promising). No target leakage. Clean 14-feature model available. Stacking doesn't beat ExtraTrees.<br>Internal milestones met. Phase 2 external validation now open.</p>
+          <p class="body-l">48 notebooks. 1,543 devices. 30 work packets closed (14 Confirmed, 6 Negative, 4 Promising). No target leakage. Clean 14-feature model available. Full model card published.<br>Internal milestones met. Phase 2 external validation now open.</p>
           <p class="trust-strip">Measured against classical baselines &middot; Cross-validated &middot; Fully reproducible</p>
         </div>
         <div class="hero-visual">
@@ -169,8 +169,12 @@
               <li>No target leakage: all features measured before stability testing (P-024, Confirmed)</li>
               <li>Clean 14-feature model: drops high-missingness features, loses only 0.012 tau-b (P-025, Confirmed)</li>
               <li>Stacking ET+RF+GB does not beat ET alone (P-026, Negative)</li>
-              <li>26 Agent OS work packets closed (P-001&ndash;P-026), 11 Confirmed, 6 Negative, 3 Promising</li>
-              <li>Partner-ready outreach package: test protocol, budget, success criteria (P-008)</li>
+              <li>Bootstrap 95% CI on tau-b entirely above 0.15 &mdash; predictive power confirmed (P-027, Confirmed)</li>
+              <li>Systematic underprediction of long-lived devices (&gt;1000h), no family bias (P-028, Promising)</li>
+              <li>Updated partner brief v2 incorporating 28-packet findings (P-029, Confirmed)</li>
+              <li>Mitchell et al. model card: full ML transparency documentation (P-030, Confirmed)</li>
+              <li>30 Agent OS work packets closed (P-001&ndash;P-030), 14 Confirmed, 6 Negative, 4 Promising</li>
+              <li>Partner-ready outreach package: test protocol, budget, success criteria (P-008, P-029)</li>
             </ul>
           </div>
         </div>
@@ -187,7 +191,7 @@
           <li>ML p-value &lt; 0.001 &mdash; <strong>MET</strong> (p &lt; 10<sup>-10</sup>)</li>
           <li>&ge;3 candidate compositions with &gt;20% simulated gain &mdash; <strong>MET</strong> (706)</li>
           <li>Cross-validated stability &mdash; <strong>MET</strong> (CV 0.289, 5-fold)</li>
-          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (44 notebooks on GitHub)</li>
+          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (48 notebooks on GitHub)</li>
         </ol>
         <p class="body-l" style="margin-top: var(--sp-4); opacity: 0.7;">Original quantum-dependent milestones (tau-b lift &ge;0.15, recall &ge;15pp, variance reduction) were not met after 9 experiments. Milestones revised to ML-focused after honest evaluation. Full record in Notebooks 08&ndash;11. Model improved from RF (0.249) to ExtraTrees (0.271) in Notebooks 13&ndash;15.</p>
       </div>

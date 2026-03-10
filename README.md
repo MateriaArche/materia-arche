@@ -15,7 +15,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
 - **Lab panel:** 3 diversified, perturbation-robust candidates locked via P-005→P-010, E4 validation-ready
-- **Work packets:** 28 closed (P-001 through P-028), 12 Confirmed, 6 Negative, 4 Promising
+- **Work packets:** 30 closed (P-001 through P-030), 14 Confirmed, 6 Negative, 4 Promising
 
 ## Notebooks
 
@@ -67,6 +67,8 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 44 | P-026 Ensemble stacking | Stacking ET+RF+GB doesn't beat ET alone (-0.005), Negative |
 | 45 | P-027 Bootstrap CI on tau-b | 95% CI entirely above 0.15 — predictive power confirmed, Confirmed |
 | 46 | P-028 Residual analysis | Systematic underprediction of long-lived devices, no family bias, Promising |
+| 47 | P-029 Updated outreach package | Revised partner brief v2 with 28-packet findings, Confirmed |
+| 48 | P-030 Model card | Mitchell et al. format, full transparency documentation, Confirmed |
 
 ## Current status
 
@@ -74,7 +76,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate at ±10% noise — E4 validation-ready
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — 9 experiments, 0 positive lift, closed
-- **Work packets:** 28 closed (P-001 through P-028), 12 Confirmed, 6 Negative, 4 Promising
+- **Work packets:** 30 closed (P-001 through P-030), 14 Confirmed, 6 Negative, 4 Promising
 
 ## Links
 
