@@ -15,7 +15,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **SHAP top drivers:** Jsc, bandgap, Voc
 - **Quantum experiments:** 9 tested, 0 positive lift (closed as research track)
 - **Lab panel:** 3 diversified, perturbation-robust candidates locked via P-005→P-010, E4 validation-ready
-- **Work packets:** 40 closed (P-001 through P-040), 17 Confirmed, 10 Negative, 7 Promising
+- **Work packets:** 44 closed (P-001 through P-044), 21 Confirmed, 12 Negative, 7 Promising, 4 Superseded
 
 ## Notebooks
 
@@ -79,6 +79,10 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 | 56 | P-038 Family-conditional importance | Mean pairwise Spearman -0.22 — importance differs by family, Confirmed |
 | 57 | P-039 Conformal under temporal shift | 80% coverage 77.2% despite temporal drift — intervals robust, Confirmed |
 | 58 | P-040 Error meta-model | ROC-AUC 0.596, tree-std top predictor — weak but non-trivial, Promising |
+| 59 | P-041 Family-aware models | Per-family ET vs global: Pure FA +0.059 tau-b, mean delta +0.018, Confirmed |
+| 60 | P-042 Panel within-family | All 3 panel devices top-20 within own family 100% of time, Confirmed |
+| 61 | P-043 Pure MA deep dive | Pure MA-only model tau-b 0.269, credible single-family ranker, Confirmed |
+| 62 | P-044 Revised credibility audit | 40-packet re-score: 60.8% credibility, honest assessment, Confirmed |
 
 ## Current status
 
@@ -86,7 +90,7 @@ An end-to-end pipeline that ranks perovskite compositions by predicted T80 stabi
 - **Lab panel:** 3 compositions across 3 families, all 100% top-20 rate at ±10% noise — E4 validation-ready
 - **Nitrogen:** ON HOLD — methodology proven, data pipeline not yet started
 - **Quantum:** Separate R&D track — 9 experiments, 0 positive lift, closed
-- **Work packets:** 40 closed (P-001 through P-040), 17 Confirmed, 10 Negative, 7 Promising
+- **Work packets:** 44 closed (P-001 through P-044), 21 Confirmed, 12 Negative, 7 Promising, 4 Superseded
 
 ## Links
 
