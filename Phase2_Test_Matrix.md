@@ -117,13 +117,29 @@ A "win" requires the favored recipe's median T80 to exceed the comparator by ≥
 
 ## Budget estimate
 
+### Tier 1: Lean single-lab academic collaboration — $10K–$18K
+Requires lab that already has the stack, materials, and chamber time. Some effort treated as research collaboration.
+
+### Tier 2: Real one-lab prospective pilot — $15K–$35K (recommended base case)
 | Item | Estimate |
 |------|----------|
-| Substrate + materials (45 devices) | $2,000–$4,000 |
-| Fabrication labor | $3,000–$6,000 |
-| Ageing/characterization (500+ hours MPP) | $2,000–$5,000 |
-| Post-mortem (PL/EL/XRD on ~18 outlier devices) | $1,000–$3,000 |
-| **Total** | **$8,000–$18,000** |
+| Substrate + materials (45 devices) | $2,000–$5,000 |
+| Fabrication labor (recipe prep, deposition, QC) | $4,000–$8,000 |
+| MPP tracking + JV characterization (500+ hrs/device) | $4,000–$10,000 |
+| Post-mortem (PL/EL/XRD on ~18 outlier devices) | $2,000–$5,000 |
+| Metadata compliance + blinding overhead | $1,000–$3,000 |
+| Consumables, shipping, contingency | $2,000–$4,000 |
+| **Total** | **$15,000–$35,000** |
+
+### Tier 3: Two-partner pilot (fabrication + independent testing) — $25K–$50K
+Preferred structure for maximum credibility. One lab fabricates under fixed stack, a second accredited lab runs blinded stability/metrology. Adds independent validation weight but roughly doubles coordination and testing costs.
+
+### Budget drivers
+- Materials procurement (lab buys vs. supplied)
+- Hours of continuous MPP tracking per device
+- Number of outlier devices receiving post-mortem
+- Whether a second institution handles blinded validation
+- Whether any outdoor subset is added (extends timeline and cost)
 
 ## Frozen artifacts (must be locked before fabrication begins)
 
