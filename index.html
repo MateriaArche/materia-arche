@@ -51,7 +51,7 @@
           <p class="eyebrow">Perovskite Stability Compiler</p>
           <h1>Internal Proof Complete</h1>
           <p class="body-l">Our ML pipeline predicts perovskite stability with Kendall tau-b 0.271 (p&lt;10<sup>-10</sup>), cross-validated at 0.289, with +0.155 lift over classical baselines. SHAP explainability identifies Jsc, bandgap, and Voc as top stability drivers.</p>
-          <p class="body-l">62 notebooks. 1,543 devices. 44 work packets closed (21 Confirmed, 12 Negative, 7 Promising). No target leakage. Clean 14-feature model available. Full model card published.<br>Internal milestones met. Phase 2 external validation now open.</p>
+          <p class="body-l">66 notebooks. 1,543 devices. 48 work packets closed (23 Confirmed, 13 Negative, 8 Promising). No target leakage. Validated within-family ranking model. Full model card published.<br>Internal milestones met. Phase 2 external validation now open.</p>
           <p class="trust-strip">Measured against classical baselines &middot; Cross-validated &middot; Fully reproducible</p>
         </div>
         <div class="hero-visual">
@@ -186,7 +186,11 @@
               <li>Panel within-family: all 3 devices top-20 within own family 100% of appearances (P-042, Confirmed)</li>
               <li>Pure MA deep dive: MA-only model tau-b 0.269, credible single-family ranker (P-043, Confirmed)</li>
               <li>Revised credibility audit: 60.8% across 40 packets, honest assessment with all caveats (P-044, Confirmed)</li>
-              <li>44 Agent OS work packets closed (P-001&ndash;P-044), 21 Confirmed, 12 Negative, 7 Promising</li>
+              <li>Physics features (tolerance/octahedral factor) don't improve LOGO &mdash; family wall not about features (P-045, Negative)</li>
+              <li>Kitchen sink 31 features: +0.040 tau-b lift, solvents and layers biggest contributors (P-046, Confirmed)</li>
+              <li>Panel survives 31-feature upgrade: all 100% top-20, tau-b 0.339 (P-047, Confirmed)</li>
+              <li>Temporal tau-b improves marginally 0.115&rarr;0.130 with extra features (P-048, Promising)</li>
+              <li>48 Agent OS work packets closed (P-001&ndash;P-048), 23 Confirmed, 13 Negative, 8 Promising</li>
               <li>Partner-ready outreach package: test protocol, budget, success criteria (P-008, P-029)</li>
             </ul>
           </div>
@@ -204,7 +208,7 @@
           <li>ML p-value &lt; 0.001 &mdash; <strong>MET</strong> (p &lt; 10<sup>-10</sup>)</li>
           <li>&ge;3 candidate compositions with &gt;20% simulated gain &mdash; <strong>MET</strong> (706)</li>
           <li>Cross-validated stability &mdash; <strong>MET</strong> (CV 0.289, 5-fold)</li>
-          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (62 notebooks on GitHub)</li>
+          <li>Evidence Package reproducible &mdash; <strong>MET</strong> (66 notebooks on GitHub)</li>
         </ol>
         <p class="body-l" style="margin-top: var(--sp-4); opacity: 0.7;">Original quantum-dependent milestones (tau-b lift &ge;0.15, recall &ge;15pp, variance reduction) were not met after 9 experiments. Milestones revised to ML-focused after honest evaluation. Full record in Notebooks 08&ndash;11. Model improved from RF (0.249) to ExtraTrees (0.271) in Notebooks 13&ndash;15.</p>
       </div>
