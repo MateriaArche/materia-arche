@@ -87,3 +87,7 @@ Packet_P045_Physics_Features.csv
 Packet_P046_Untapped_Features.csv
 Packet_P047_Kitchen_Sink_Panel.csv
 Packet_P048_Kitchen_Sink_Temporal.csv
+
+# Freeze A large artifacts
+freeze_a/model.pkl
+freeze_a/training_data.csv
